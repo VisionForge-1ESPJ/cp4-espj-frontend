@@ -107,6 +107,7 @@ CP4-1ESPJ-FRONTEND/
 | Henry Gabriel | 570063 |
 | Matheus Carvalho | 569454 |
 | Nicholas Belo | 571063 |
+| Leonardo Ursini | 569812 |
 
 ---
 
