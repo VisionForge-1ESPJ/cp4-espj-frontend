@@ -1,4 +1,4 @@
-function todoFilters({ filter, search, onFilterChange, onSearchChange }) {
+function TodoFilters({ filter, search, onFilterChange, onSearchChange }) {
     const filters = [
         { key: "all", label: "Todos" },
         { key: "pending", label: "Pendentes" },
@@ -34,4 +34,4 @@ function todoFilters({ filter, search, onFilterChange, onSearchChange }) {
     );
 }
 
-export default todoFilters;
+export default TodoFilters;

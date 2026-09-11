@@ -1,4 +1,4 @@
-function todoForm({ form, onChange, onSubmit }) {
+function TodoForm({ form, onChange, onSubmit }) {
     return (
         <form className="todo-form" onSubmit={onSubmit}>
             <div className="field-row">
@@ -53,4 +53,4 @@ function todoForm({ form, onChange, onSubmit }) {
     );
 }
 
-export default todoForm;
+export default TodoForm;

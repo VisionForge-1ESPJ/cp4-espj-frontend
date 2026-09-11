@@ -1,4 +1,4 @@
-function todoItem({ todo, onToggle, onDelete }) {
+function TodoItem({ todo, onToggle, onDelete }) {
     return (
         <li className={todo.completed ? "todo-item done" : "todo-item"}>
             <div className="todo-main">
@@ -38,4 +38,4 @@ function todoItem({ todo, onToggle, onDelete }) {
     );
 }
 
-export default todoItem;
+export default TodoItem;

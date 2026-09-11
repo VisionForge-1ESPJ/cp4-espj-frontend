@@ -1,4 +1,4 @@
-function todoStats({ total, pending, completed }) {
+function TodoStats({ total, pending, completed }) {
     return (
         <section className="stats">
             <div className="stat-card">
@@ -17,4 +17,4 @@ function todoStats({ total, pending, completed }) {
     );
 }
 
-export default todoStats;
+export default TodoStats;

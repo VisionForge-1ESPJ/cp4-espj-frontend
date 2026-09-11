@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
-import todoFilters from "./components/todoFilters";
-import todoForm from "./components/todoForm";
-import todoList from "./components/todoList";
-import todoStats from "./components/todoStats";
+import TodoFilters from "./components/todoFilters";
+import TodoForm from "./components/todoForm";
+import TodoList from "./components/todoList";
+import TodoStats from "./components/todoStats";
 
 const STORAGE_KEY = "programmer-todo-list-v1";
 
@@ -10,7 +10,7 @@ const initialForm = {
     title: "",
     description: "",
     date: "",
-    priority: "Média",
+    priority: "Média"
 };
 
 function App() {

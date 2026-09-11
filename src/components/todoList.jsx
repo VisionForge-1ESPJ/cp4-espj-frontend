@@ -1,6 +1,6 @@
-import todoItem from "./todoItem";
+import TodoItem from "./todoItem";
 
-function todoList({ todos, onToggle, onDelete }) {
+function TodoList({ todos, onToggle, onDelete }) {
     return (
         <ul className="todo-list">
             {todos.length === 0 ? (
@@ -20,4 +20,4 @@ function todoList({ todos, onToggle, onDelete }) {
     );
 }
 
-export default todoList;
+export default TodoList;
